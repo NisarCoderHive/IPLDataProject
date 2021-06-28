@@ -18,7 +18,7 @@ const pool = new Pool({
  
   // Convert CSV string into rows:
   const rows = await csv.parse(csvString);
-  //console.log(rows)
+  console.log(rows)
  await rows.map(row => {
     pool.query('insert into matches(id,season) values (' +row[0] +',\'' + row[1] +'\')', (err, res) => {
         console.log('Success',err, res,row[0],row[1])

@@ -1,10 +1,2 @@
 This is a text file to practice git
 
-<<<<<<< HEAD
-I made changes in VS Code
-=======
-The changes i made directly on the git
->>>>>>> 69bcc770353b7946e701e689e0ca59e46503ac31
-
-
-Mountblue Prep Session
